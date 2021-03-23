@@ -28,6 +28,3 @@ with DAG(
     first_function_execute = PythonOperator(
         task_id="first_function_execute",
         python_callable=first_function_execute)
-
-
-first_function_execute >> second_function_execute
