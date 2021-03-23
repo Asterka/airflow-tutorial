@@ -23,7 +23,7 @@ with DAG(
         "retry_delay":timedelta(minutes=10),
         "start_date":datetime(2021,3,23)
     },
-    cathcup=False
+    catchup=False
 ) as f:
     first_function_execute = PythonOperator(
         task_id="first_function_execute",
