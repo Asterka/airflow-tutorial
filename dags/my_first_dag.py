@@ -21,7 +21,7 @@ with DAG(
         "owner":"airflow",
         "retries":1,
         "retry_delay":timedelta(minutes=10),
-        "start_date":datetime(2021,23,3)
+        "start_date":datetime(2021,3,23)
     },
     cathcup=False
 ) as f:
